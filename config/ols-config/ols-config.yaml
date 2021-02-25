@@ -1,0 +1,68 @@
+'@context': null
+ontologies:
+
+  - id: dwc
+    title: DWC_SCHEMA
+    preferredPrefix: dwc
+    definition_property:
+      - http://www.w3.org/2004/02/skos/core#definition
+    base_uri:
+      - http://rs.tdwg.org/dwc/terms/
+    ontology_purl: https://raw.githubusercontent.com/hrshdhgd/metadata_converter/master/target/dwc/dwc.owl
+
+
+  - id: emp
+    title: EMP_SCHEMA
+    preferredPrefix: emp
+    definition_property:
+      - http://www.w3.org/2004/02/skos/core#definition
+    base_uri:
+      - https://microbiomedata/schema/emp/
+    ontology_purl: https://raw.githubusercontent.com/hrshdhgd/metadata_converter/master/target/emp/emp.owl
+
+  
+  - id: gold
+    title: GOLD_SCHEMA
+    preferredPrefix: gold
+    definition_property:
+      - http://www.w3.org/2004/02/skos/core#definition
+    base_uri:
+      - https://microbiomedata/schema/ddl
+    ontology_purl: https://raw.githubusercontent.com/hrshdhgd/metadata_converter/master/target/gold/gold.owl
+
+
+  - id: kbase
+    title: KBase_SCHEMA
+    preferredPrefix: kbase
+    definition_property:
+      - http://www.w3.org/2004/02/skos/core#definition
+    base_uri:
+      - http://kbase.us/
+    ontology_purl: https://raw.githubusercontent.com/hrshdhgd/metadata_converter/master/target/kbase/kbase.owl
+
+  - id: mixs
+    title: MIXS_SCHEMA
+    preferredPrefix: mixs
+    definition_property:
+      - http://www.w3.org/2004/02/skos/core#definition
+    base_uri:
+      - https://microbiomedata/meta/
+    ontology_purl: https://raw.githubusercontent.com/hrshdhgd/metadata_converter/master/target/mixs/mixs.owl
+  
+  - id: mixs6
+    title: MIXS6_SCHEMA
+    preferredPrefix: mixs6
+    definition_property:
+      - http://www.w3.org/2004/02/skos/core#definition
+    base_uri:
+      - https://w3id.org/biolink/biolinkml/meta/types/
+    ontology_purl: https://raw.githubusercontent.com/hrshdhgd/metadata_converter/master/target/mixs6/mixs6.owl
+
+  - id: neon
+    title: Neon_SCHEMA
+    preferredPrefix: neon
+    definition_property:
+      - http://www.w3.org/2004/02/skos/core#definition
+    base_uri:
+      - https://data.neonscience.org/
+    ontology_purl: https://raw.githubusercontent.com/hrshdhgd/metadata_converter/master/target/neon/neon.owl
