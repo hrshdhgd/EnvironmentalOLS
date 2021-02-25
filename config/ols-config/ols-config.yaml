@@ -62,7 +62,7 @@ ontologies:
     title: Neon_SCHEMA
     preferredPrefix: neon
     definition_property:
-      - http://www.w3.org/2004/02/skos/core#definition
+      - http://purl.obolibrary.org/obo/IAO_0000115
     base_uri:
       - https://data.neonscience.org/
     ontology_purl: https://raw.githubusercontent.com/hrshdhgd/metadata_converter/master/target/neon/neon.owl
